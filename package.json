@@ -1,10 +1,12 @@
 {
-    "name": "Templates Plugins",
+    "name": "Templates plugin",
     "description": "Custom Template Plugins",
     "version": "1.0",
     "author": "Devesh",
     "repository": "https://github.com/cosmos1721/monokle-template-plugin.git",
-    "monokle_Plugin":{
+    "monoklePlugin":{
+        "id": "com.github.devesh.plugin.templates",
+        "helpUrl": "https://github.com/cosmos1721/monokle-template-plugin",
         "modules":[
             {
                 "type":"template",
