@@ -1,0 +1,15 @@
+{
+    "name": "Template Plugins",
+    "description": "Custom Template Plugins",
+    "version": "1.0",
+    "author": "Devesh",
+    "repository": "https://github.com/cosmos1721/monokle-template-plugin.git",
+    "monokle_Plugin":{
+        "modules":[
+            {
+                "type":"template",
+                "path": "basic-pod-template"
+            }
+        ]
+    }
+}

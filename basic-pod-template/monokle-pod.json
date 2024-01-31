@@ -1,0 +1,24 @@
+{
+    "name": "Basic Kubernetes Pod",
+    "id": "com.github.devesh.plugin.templates.basic-pod-template",
+    "author": "Devesh Sharma",
+    "version": "1.0.0",
+    "description":"Creates a pos for a specific Image",
+    "repository":"",
+    "type":"vanilla",
+    "forms":[
+        {
+            "name":"Pod Settings",
+            "description":"Specify the settings for the pod",
+            "schema":"form-schema.json",
+            "uiSchema":"from-ui-schema.json"
+        }
+    ],
+    "manifest":[
+        {
+            "filePath":"template.yaml"
+        }
+    ],
+    "resultMessage":"Pod Created Successfully",
+    "helpUrl":"https://github.com/cosmos1721/monokle-template-plugin"
+}

@@ -1,0 +1,19 @@
+{
+    "type":"object",
+    "required":[
+        "name",
+        "Image"
+    ],
+    "properties":{
+        "name":{
+            "name":"string",
+            "default":"my-pod"
+        },
+        "namespace":{
+            "type":"string"
+        },
+        "image":{
+            "type":"string"
+        }
+    }
+}
